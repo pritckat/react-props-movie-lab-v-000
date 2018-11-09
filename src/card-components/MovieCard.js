@@ -32,7 +32,7 @@ export default class MovieCard extends Component {
   render() {
     return (
       <div className="movie-card">
-        
+
         <CardFront />
         <CardBack />
       </div>
@@ -41,5 +41,7 @@ export default class MovieCard extends Component {
 }
 
 MovieCard.defaultProps = {
-
+  title: 'Unknown'
+  IMDBRating: null
+  poster: 'default'
 }
